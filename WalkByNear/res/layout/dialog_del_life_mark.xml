@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/diaglebackground"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="删除"
+        android:textColor="#FF0000"
+        android:textSize="35px" />
+
+    <TextView
+        android:id="@+id/del_LifeMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:hint="您确定要删除吗？"
+        android:textSize="25px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/alter_cancel"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="true"
+            android:text="取消"
+            android:textColor="#808080"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#787878" />
+
+        <TextView
+            android:id="@+id/alter_ok"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/diaglebackground"
+            android:gravity="center"
+            android:onClick="true"
+            android:text="确定"
+            android:textColor="#808080"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

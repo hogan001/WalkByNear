@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/dongtaiLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <SurfaceView
+            android:id="@+id/CameraView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </SurfaceView>
+
+        <com.sixin.nearpeople.myview.DynamicViewGroup
+            android:id="@+id/dynamicView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
+            android:layout_alignParentTop="true"
+            layout="@layout/layout_title_bar" />
+         
+        <com.sixin.nearpeople.myview.RoundImageView
+            android:id="@+id/roundView"
+            android:layout_width="@dimen/round_diameter"
+            android:layout_height="@dimen/round_diameter"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="60dp"
+		 />
+		
+        <include
+            android:id="@+id/allbottom"
+            android:layout_alignParentBottom="true"
+            layout="@layout/allbottom"
+            android:visibility="invisible" />
+            
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/first_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/first_bg"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/first_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="150dp"
+            android:src="@drawable/first_text" />
+    </RelativeLayout>
+
+</FrameLayout>

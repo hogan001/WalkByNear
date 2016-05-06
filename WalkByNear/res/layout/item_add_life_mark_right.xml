@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp" 
+    android:background="#ffffff"
+    >
+
+    <ImageView
+        android:id="@+id/add_lifeMark_right_image"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+         />
+
+    <TextView
+        android:id="@+id/add_lifeMark_right_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="66dp"
+        android:text="美食"
+        android:textColor="#4d4d4d"
+        android:textSize="34px" />
+
+    <ImageView
+        android:id="@+id/add_lifeMark_right_select_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/add_lifemark_right_select_iv" />
+
+    <ImageView
+        android:id="@+id/add_lifeMark_right_add_iv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_add"
+        android:visibility="gone" />
+
+</RelativeLayout>

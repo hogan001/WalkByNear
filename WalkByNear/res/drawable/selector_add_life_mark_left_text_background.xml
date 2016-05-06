@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true"
+           android:drawable="@color/add_lifeMark_left_select_bg"  /> <!-- select -->
+     <item android:state_focused="true"
+          android:drawable="@color/add_lifeMark_left_select_bg" /> <!-- focused -->
+     <item android:drawable="@color/add_lifeMark_left_default_bg" /> <!-- default -->
+</selector>

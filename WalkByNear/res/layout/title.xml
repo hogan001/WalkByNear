@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title1"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_alignParentTop="true"
+    android:background="#40E0D0"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/back_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:text="返回"
+        android:textColor="#FFF"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/open_ig"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/menu_icon" />
+
+</LinearLayout>

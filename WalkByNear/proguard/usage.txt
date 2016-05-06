@@ -1,0 +1,49 @@
+com.hogan.walkbynear.BuildConfig
+com.hogan.walkbynear.R:
+    10:10:public R()
+com.hogan.walkbynear.R$attr
+com.hogan.walkbynear.R$dimen
+com.hogan.walkbynear.R$drawable
+com.hogan.walkbynear.R$id
+com.hogan.walkbynear.R$layout
+com.hogan.walkbynear.R$menu
+com.hogan.walkbynear.R$string
+com.hogan.walkbynear.R$style
+com.hogan.walkbynear.R$styleable:
+    public static final int CustomRoundView_lineColor
+    public static final int CustomRoundView_pointColor
+    public static final int CustomRoundView_roundColor
+    public static final int CustomSectorView_sectorColor
+    public static final int CustomSectorView_startAngle
+    public static final int CustomSectorView_sweepAngle
+    201:201:public R$styleable()
+com.sixin.nearpeople.dialog.ChooseDialog:
+    21:22:protected ChooseDialog(android.content.Context)
+    31:34:public ChooseDialog(android.content.Context,int,java.lang.String)
+    83:84:public void setLeftButtonText(java.lang.CharSequence)
+    87:88:public void setRightButtonText(java.lang.CharSequence)
+com.sixin.nearpeople.dialog.LoadingDialog:
+    29:34:public LoadingDialog(android.content.Context)
+    29:48:public LoadingDialog(android.content.Context,int,java.lang.String)
+    59:61:public void setText(java.lang.String)
+    64:65:public void setText(int)
+    69:70:public void setFinishedActivity(android.app.Activity)
+com.sixin.nearpeople.entity.MyLatLng
+com.sixin.nearpeople.entity.People:
+    private static final long serialVersionUID
+    32:36:public People(com.baidu.mapapi.model.LatLng,java.lang.String,double)
+    43:43:public com.baidu.mapapi.model.LatLng getLocation()
+com.sixin.nearpeople.myview.PeopleView:
+    private static final java.lang.String TAG
+    private int margin
+com.sixin.nearpeople.utils.LatlngUtil:
+    41:65:public com.sixin.nearpeople.utils.LatlngUtil$Point getXY(double,com.sixin.nearpeople.entity.People)
+com.sixin.nearpeople.utils.LatlngUtil$MyLatLng:
+    static final double Rc
+    static final double Rj
+com.sixin.nearpeople.utils.MyScroller:
+    105:106:public void setCurrX(long)
+    113:114:public void setCurrY(long)
+com.sixin.nearpeople.utils.NetworkConnected
+com.sixin.nearpeople.utils.OrientationSensorUtil:
+    72:72:public float[] getValues()
